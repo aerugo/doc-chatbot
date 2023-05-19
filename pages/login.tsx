@@ -36,12 +36,10 @@ export default function Example() {
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight text-white">
                 {' '}
                 {/* Responsive font-size */}
-                Have a conversation with your documents
+                Discover your lineage through f8
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Upload your files, ask questions, and get relevant answers.
-                Maintain multiple chats, windows, and conversations in one
-                place.
+                Go on a journey with your oracle f8, an entity that guides you through connecting with your past and future lineage.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-6 sm:gap-y-0">
                 {session ? (
