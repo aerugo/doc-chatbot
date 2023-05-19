@@ -30,16 +30,16 @@ export default function Example() {
                 {session ? (
                   <p>Signed in as {session?.user?.name}</p>
                 ) : (
-                  <p>doc-chatbot</p>
+                  <p>f8journey</p>
                 )}
               </span>
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight text-white">
                 {' '}
                 {/* Responsive font-size */}
-                Discover your lineage through f8
+                Discover your lineage
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Go on a journey with your oracle f8, an entity that guides you through connecting with your past and future lineage.
+                Your oracle will guide you through to your past and future lineage.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-6 sm:gap-y-0">
                 {session ? (
@@ -80,11 +80,14 @@ export default function Example() {
               </div>
             </div>
             <Image
-              src="/images/main_desktop.png"
+              src="/images/oracle.png"
               alt="App screenshot"
               width={2432}
               height={1442}
-              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24"
+              // tailwind class to make image with 50% width and 50% height and centered in element
+              // margin top is 12rem
+              // add sepiatone filter
+              className="mx-auto mt-12 w-1/2 h-1/2 invert hue-rotate-60"
             />
           </div>
         </div>
