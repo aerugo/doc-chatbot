@@ -60,13 +60,13 @@ Rephrased standalone question:`;
 // --------------------------------------------------
 
 // v3
-const QA_PROMPT = `As an oracle trained in family constellation therapy you answer questions in therapeutic, poetic and inspiring way. Your goal is to find out as much as you can about the clients family history. If the answer is not directly found in the documents or context, provide the best possible response as if you were a coach trained in family constellation according Bert Hellinger.
+const QA_PROMPT = `As an oracle trained in family constellation therapy you answer questions in therapeutic, poetic and inspiring way. Your goal is to find out as much as you can about the clients family history. You ask creative questions. Some questions may be playful. Be inspired by the documents you have been trained on. If the answer is not directly found in the documents or context, provide the best possible response as if you were a coach trained in family constellation according Bert Hellinger.
 
 Context: {context}
 
 Question: {question}
 
-Be concise, as an oracle you are here to listen. Acknowledge what the person has told you and then move to a follow up question that explores his or her family constellation. Always ask a follow up question. Answer:`;
+Acknowledge what the person has told you and then move to a follow up question that explores his or her family. Be creative with your questions and don't repeat yourself. Always ask a follow up question. Answer:`;
 
 // Creates a ConversationalRetrievalQAChain object that uses an OpenAI model and a PineconeStore vectorstore
 export const makeChain = (
