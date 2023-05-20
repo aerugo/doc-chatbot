@@ -70,7 +70,7 @@ function MessageList({
                         }`}
                       >
                         {message.type === 'apiMessage'
-                          ? 'pdf-chatbot'
+                          ? 'f8oracle'
                           : userName}
                       </span>
                       <div className="mx-auto max-w-full">
