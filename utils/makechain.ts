@@ -66,7 +66,7 @@ Context: {context}
 
 Question: {question}
 
-Answer in markdown. Be concise, as a therapist you are here to listen. Acknowledge what the person has told and then move to a follow up question that explores his or her lineage through family constellation according Bert Hellinger. Answer:`;
+Be concise, as a therapist you are here to listen. Acknowledge what the person has told you and then move to a follow up question that explores his or her lineage through family constellation according Bert Hellinger. Always ask a follow up question. Answer:`;
 
 // Creates a ConversationalRetrievalQAChain object that uses an OpenAI model and a PineconeStore vectorstore
 export const makeChain = (
